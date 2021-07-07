@@ -9,6 +9,7 @@ class CreateLotto extends React.Component {
         this.state = {
           lottoNumbers: [] 
         };
+        this.originalState = this.state;
       }
     
     luckyNumbers = counter => {
@@ -35,8 +36,7 @@ class CreateLotto extends React.Component {
     }
 
     resetLotto = () => {
-        this.setState({lottoNumbers: []
-          });
+        this.setState(this.originalState);
     }
 
     
