@@ -6,9 +6,7 @@ class CreateLotto extends React.Component {
 
     constructor(){
         super();
-        this.state = {
-          lottoNumbers: [] 
-        };
+        this.state = { lottoNumbers: [] };
         this.originalState = this.state;
       }
     
