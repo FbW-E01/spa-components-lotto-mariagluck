@@ -5,7 +5,7 @@ import React from 'react';
 class CreateLotto extends React.Component {
 
     constructor(){
-        super()
+        super();
         this.state = {
           lottoNumbers: [] 
         };
