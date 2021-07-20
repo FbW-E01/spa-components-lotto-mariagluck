@@ -1,0 +1,83 @@
+.reset_btn { 
+    background: white;
+    color: rgb(24, 192, 204);
+    border-color: rgb(24, 192, 204);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+}   
+
+.showNumbers_btn { 
+    background: rgb(24, 192, 204);
+    color: white;
+    border-color: rgb(24, 192, 204);
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+
+.lottoNumber_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 50px auto;
+
+
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 20px;
+    background: #fff;
+    border: 3px solid rgb(24, 192, 204);
+    color: #000;
+    text-align: center;
+   
+}
+
+li:last-child {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 20px;
+    background: rgb(24, 192, 204);
+    border: 3px solid rgb(24, 192, 204);
+    color: #000;
+    text-align: center;
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .lottoNumber_list {
+        padding: 0;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 20px auto;
+
+    }
+      
+   li, li:last-child  {
+        width: 14px;
+        height: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+   }
+
+
+  }
